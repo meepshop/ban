@@ -3,5 +3,6 @@ export default {
     port: 6379,
     host: 'localhost'
   },
-  redisKey: 'ban'
+  redisKey: 'ban',
+  cronjobString: '* * * * * *'
 }
